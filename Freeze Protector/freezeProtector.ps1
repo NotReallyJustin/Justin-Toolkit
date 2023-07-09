@@ -3,6 +3,6 @@ Write-Output 'Freeze Protector Started'
 
 while ($true) 
 {
-    Start-Sleep -s 5
+    Start-Sleep -s 30
     $wshShell.sendkeys('a')
 }
